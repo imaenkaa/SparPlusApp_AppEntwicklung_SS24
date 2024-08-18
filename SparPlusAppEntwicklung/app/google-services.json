@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498970665148",
+    "project_id": "sparplusappentwicklung",
+    "storage_bucket": "sparplusappentwicklung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498970665148:android:f0be7e576e3c47813970b9",
+        "android_client_info": {
+          "package_name": "com.example.sparplusappentwicklung"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK13Z3emSx8vhnfOhJUbovSqATeY6AHw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

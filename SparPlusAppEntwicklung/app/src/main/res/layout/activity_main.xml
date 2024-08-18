@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/lavender_border">
+
+            <!-- Begrüßungsnachricht -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/WelcomeTextViewGreeting"
+                android:text="Willkommen bei SparPlusApp"
+                android:textAlignment="center"
+                android:textColor="@color/Lavender"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <!-- Label für den aktuellen Kontostand -->
+            <TextView
+                android:id="@+id/WelcomeTextViewCurrentBalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aktueller Kontostand: €0.00"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Deposit Button für Einzahlung -->
+            <Button
+                android:id="@+id/WelcomeButtonDeposit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Einzahlen"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button_background"/>
+
+            <!-- Withdraw Button für Abhebung -->
+            <Button
+                android:id="@+id/WelcomeButtonWithdraw"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Abheben"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_background"/>
+
+            <!-- Transfer Button für Überweisung -->
+            <Button
+                android:id="@+id/WelcomeButtonTransfer"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Überweisen"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_background"/>
+
+            <!-- Past Transactions Button für vergangene Transaktionen -->
+            <Button
+                android:id="@+id/WelcomeButtonTransactions"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Vergangene Transaktionen"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_background"/>
+
+            <!-- Logout Button für Abmeldung -->
+            <Button
+                android:id="@+id/WelcomeButtonLogout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Abmelden"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_background"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+

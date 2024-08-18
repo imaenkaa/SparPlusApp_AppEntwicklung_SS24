@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_image"
+    tools:context=".WithdrawActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/lavender_border">
+
+            <!-- Label für die Abhebung -->
+            <TextView
+                android:id="@+id/WithdrawWithdrawTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abhebung"
+                android:textAlignment="center"
+                android:textColor="@color/Lavender"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <!-- Eingabefeld für Betrag -->
+            <EditText
+                android:id="@+id/WithdrawEditTextAmount"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="Betrag"
+                android:inputType="numberDecimal"
+                android:drawableLeft="@drawable/baseline_attach_money_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <!-- Withdraw Button für Geld abheben -->
+            <Button
+                android:id="@+id/WithdrawButtonWithdraw"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Abheben"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_button_background"/>
+
+            <!-- Button zum Zurückkehren zur vorherigen Seite -->
+            <Button
+                android:id="@+id/WithdrawButtonBack"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Zurück"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_background"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
