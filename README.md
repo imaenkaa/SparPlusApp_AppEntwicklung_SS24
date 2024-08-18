@@ -19,4 +19,4 @@ Matrikelnr: 77211970236
 
 ## Hinweis
 
-* Um eine Überweisung durchführen zu können, muss der Empfänger ein registrierter Benutzer sein. Der Benutzername muss korrekt eingegeben werden, damit der Empfänger aus der Datenbank identifiziert und die Überweisung erfolgreich zugeordnet werden kann.
+*Um eine Überweisung durchführen zu können, muss der Empfänger ein registrierter Benutzer sein. Der Benutzername muss korrekt eingegeben werden, damit der Empfänger aus der Datenbank identifiziert und die Überweisung erfolgreich zugeordnet werden kann.
